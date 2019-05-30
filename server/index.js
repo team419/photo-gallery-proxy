@@ -22,14 +22,4 @@ for (route of routes) {
   );
 }
 
-// app.use('/', (req, res) => {
-//   proxy({
-//     target: 'http://localhost:3418',
-//     pathRewrite: (path, req) => {
-//       console.log(path);
-//       return path.split('/').slice(2).join('/');
-//     }
-//   })
-// });
-
 app.listen(port, () => console.log(`Example app listening on port ${port}!`));
