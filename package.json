@@ -22,7 +22,7 @@
   "dependencies": {
     "axios": "^0.18.0",
     "body-parser": "^1.19.0",
-    "express": "^4.17.0",
+    "express": "^4.17.3",
     "faker": "^4.1.0",
     "http-proxy-middleware": "^0.19.1",
     "jest": "^24.8.0",
